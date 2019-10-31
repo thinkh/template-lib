@@ -1,0 +1,18 @@
+{
+  "generator-phovea": {
+    "type": "lib",
+    "libraries": [],
+    "libraryAliases": {},
+    "libraryExternals": [],
+    "modules": [
+      "phovea_core"
+    ],
+    "entries": "./index.js",
+    "ignores": [],
+    "extensions": [],
+    "name": "",
+    "author": "Datavisyn GmbH",
+    "today": "Thu, 31 Oct 2019 21:53:51 GMT",
+    "githubAccount": "datavisyn"
+  }
+}
