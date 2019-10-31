@@ -1,4 +1,4 @@
- [![Phovea][phovea-image]][phovea-url] [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+ [![Phovea][phovea-image]][phovea-url]
 =====================
 
 
@@ -36,9 +36,3 @@ This repository is part of **[Phovea](http://phovea.caleydo.org/)**, a platform 
 
 [phovea-image]: https://img.shields.io/badge/Phovea-Client%20Plugin-F47D20.svg
 [phovea-url]: https://phovea.caleydo.org
-[npm-image]: https://badge.fury.io/js/.svg
-[npm-url]: https://npmjs.org/package/
-[travis-image]: https://travis-ci.org/datavisyn/.svg?branch=master
-[travis-url]: https://travis-ci.org/datavisyn/
-[daviddm-image]: https://david-dm.org/datavisyn//status.svg
-[daviddm-url]: https://david-dm.org/datavisyn/
