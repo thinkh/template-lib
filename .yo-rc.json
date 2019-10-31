@@ -10,7 +10,7 @@
     "entries": "./index.js",
     "ignores": [],
     "extensions": [],
-    "name": "",
+    "name": "<%=name%>",
     "author": "Datavisyn GmbH",
     "today": "Thu, 31 Oct 2019 21:53:51 GMT",
     "githubAccount": "datavisyn"

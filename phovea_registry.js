@@ -12,4 +12,4 @@ import {register} from 'phovea_core/src/plugin';
 //other modules
 import 'phovea_core/phovea_registry.js';
 //self
-register('',require('./phovea.js'));
+register('<%=name%>',require('./phovea.js'));

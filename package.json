@@ -1,5 +1,5 @@
 {
-  "main": "build/.js",
+  "main": "build/<%=name%>.js",
   "files": [
     "src",
     "index.js",
@@ -29,7 +29,7 @@
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags",
     "predist": "npm run build && npm run docs",
-    "dist": "mkdirp dist && cd build && tar cvzf ../dist/.tar.gz *"
+    "dist": "mkdirp dist && cd build && tar cvzf ../dist/<%=name%>.tar.gz *"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.41",
@@ -69,9 +69,9 @@
     "webpack-dev-server": "2.4.2"
   },
   "dependencies": {
-    "phovea_core": "~2.0.0"
+    "phovea_core": "github:phovea/phovea_core#develop"
   },
-  "name": "",
+  "name": "<%=name%>",
   "description": "",
   "homepage": "https://phovea.caleydo.org",
   "version": "1.0.0-SNAPSHOT",
@@ -82,7 +82,7 @@
   },
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/datavisyn//issues"
+    "url": "https://github.com/datavisyn/<%=name%>/issues"
   },
   "repository": {
     "type": "git",
